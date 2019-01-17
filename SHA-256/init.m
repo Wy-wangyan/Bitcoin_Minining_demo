@@ -1,0 +1,7 @@
+k=[hex2dec('428a2f98') hex2dec('71374491') hex2dec('b5c0fbcf') hex2dec('e9b5dba5') hex2dec('3956c25b') hex2dec('59f111f1') hex2dec('923f82a4') hex2dec('ab1c5ed5') hex2dec('d807aa98') hex2dec('12835b01') hex2dec('243185be') hex2dec('550c7dc3') hex2dec('72be5d74') hex2dec('80deb1fe') hex2dec('9bdc06a7') hex2dec('c19bf174') hex2dec('e49b69c1') hex2dec('efbe4786') hex2dec('0fc19dc6') hex2dec('240ca1cc') hex2dec('2de92c6f') hex2dec('4a7484aa') hex2dec('5cb0a9dc') hex2dec('76f988da') hex2dec('983e5152') hex2dec('a831c66d') hex2dec('b00327c8') hex2dec('bf597fc7') hex2dec('c6e00bf3') hex2dec('d5a79147') hex2dec('06ca6351') hex2dec('14292967') hex2dec('27b70a85') hex2dec('2e1b2138') hex2dec('4d2c6dfc') hex2dec('53380d13') hex2dec('650a7354') hex2dec('766a0abb') hex2dec('81c2c92e') hex2dec('92722c85') hex2dec('a2bfe8a1') hex2dec('a81a664b') hex2dec('c24b8b70') hex2dec('c76c51a3') hex2dec('d192e819') hex2dec('d6990624') hex2dec('f40e3585') hex2dec('106aa070') hex2dec('19a4c116') hex2dec('1e376c08') hex2dec('2748774c') hex2dec('34b0bcb5') hex2dec('391c0cb3') hex2dec('4ed8aa4a') hex2dec('5b9cca4f') hex2dec('682e6ff3') hex2dec('748f82ee') hex2dec('78a5636f') hex2dec('84c87814') hex2dec('8cc70208') hex2dec('90befffa') hex2dec('a4506ceb') hex2dec('bef9a3f7') hex2dec('c67178f2')];
+h0=[hex2dec('6a09e667') hex2dec('bb67ae85') hex2dec('3c6ef372') hex2dec('a54ff53a') hex2dec('510e527f') hex2dec('9b05688c') hex2dec('1f83d9ab') hex2dec('5be0cd19')];
+
+ctx.data=uint8(zeros(1,64));
+ctx.datalen=0;
+ctx.bitlen=0;
+ctx.state=h0;
